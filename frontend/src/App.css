@@ -1,0 +1,311 @@
+body{
+  background-color: aliceblue;
+  font-family: Montserrat;
+ }
+ 
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0a1612;
+ }
+ li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+ /* li:hover {
+  background-color: rgba(15, 12, 12, 0);
+ } */
+ .sold {
+  color: rgb(45, 126, 45);
+  text-align: center;
+  font-size: 1.90vh;
+  margin: 10px;
+}
+.x {
+  color: rgb(184, 49, 49);
+  text-align: center;
+  font-size: 1.90vh;
+  margin: 10px;
+}
+#select-input{
+ background:  white no-repeat 96% 0;
+  height: 4vh;
+  overflow: hidden;
+  width: 148px;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  margin: 8px;
+  
+}
+
+#select-inputA{ text-align: center;
+ background:  white no-repeat 96% 0;
+  height: 4vh;
+  overflow: hidden;
+  width: 40px;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  margin: 8px;
+}
+
+#name-input{
+ text-align: center;
+ background:  white no-repeat 96% 0;
+  height: 29px;
+  overflow: hidden;
+  width: 240px;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+#add-input {
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid rgb(131, 121, 121); 
+  background-color: aliceblue;
+  left: 15vw;;
+  position: absolute;
+}
+.fa-check-circle {
+  font-size: 4vh;
+  color: rgb(46, 190, 46);
+  cursor: pointer;
+}
+.fa-check-circle:active{
+  transform: translateY(4px)
+}
+
+.add {
+  margin-left: 5vw;
+}
+.update {
+ margin-left: 5vw;   
+}
+.search {
+  background-color: #ecf0f1;
+}
+button {
+ text-align: center;
+ background:  white no-repeat 96% 0;
+  height: 29px;
+  overflow: hidden;
+  width: 240px;
+  color: white;
+  background-color: #333;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 0.5vw;
+}
+h4 {
+ margin-left: 11vw;
+} 
+.mains {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: #ecf0f1;
+  border-bottom: 1px solid black
+}
+.title {
+  float: left;
+  display: block;
+  overflow: hidden;
+  list-style-type: none;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: rgba(23, 54, 155, 0.938);
+}
+
+.column {
+  float: left;
+  display: block;
+  overflow: hidden;
+  list-style-type: none;
+  color: black;
+  text-align: center;
+  font-size: 1.90vh;
+  margin: 10px;
+}
+.mains:hover {
+  background-color: rgba(15, 12, 12, 0.459);
+}
+.fa-arrow-left {
+  margin-left: 18vw;
+  margin-right: 10vw;
+  cursor: pointer;
+}
+.fa-arrow-right {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  cursor: pointer;
+}
+.editUserInfo {
+  position: absolute;
+  top: 40vh;
+  left: 40vw;
+  width: 18vw;
+  background-color: black;
+  color: aliceblue;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  opacity: 0.8;
+}
+.updateUser {
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  margin: 5%;
+  background-color: rgba(23, 54, 155, 0.938);
+}
+.exit {
+  cursor: pointer;
+  position: absolute;
+  font-weight: bold;
+  font-size: 2.5vh;
+  right: 3px;
+  color: rgb(116, 24, 24);
+
+}
+input {
+  width: 15vw;
+}
+.editUser {
+  text-align: center;
+}
+.badges {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.monthBadge {
+  height: 20vh;
+  width: 10vw;
+  background-color: #2ecc71;
+  display: block;
+  border-radius: 50%;
+  margin-left: 2vw;
+  margin-top: 4vh
+}
+.fa-chart-line {
+  color: white;
+  font-size: 12vh;
+  margin: 20%
+}
+.fa-envelope {
+  color: white;
+  font-size: 12vh;
+  margin: 20%
+}
+.emailsBadge {
+  height: 20vh;
+  width: 10vw;
+  background-color: #3498db;
+  display: block;
+  border-radius: 50%;
+  margin-left: 5vw;
+  margin-top: 4vh
+}
+.OutstandingBadge {
+  height: 20vh;
+  width: 10vw;
+  background-color: #e74c3c;
+  display: block;
+  border-radius: 50%;
+  margin-left: 3vw;
+  margin-top: 4vh
+}
+.fa-user-circle {
+  color: white;
+  font-size: 12vh;
+  margin: 20%
+}
+.HottestCountryBadge {
+  height: 20vh;
+  width: 10vw;
+  background-color: #f1c40f;
+  display: block;
+  border-radius: 50%;
+  margin-left: 3vw;
+  margin-top: 4vh
+}
+.fa-globe-americas {
+  color: white;
+  font-size: 12vh;
+  margin: 20%
+}
+.newClients{
+  position: absolute;
+  top: 11vh;
+  left: 13vw; 
+  font-size: 3vh
+}
+.emails {
+  position: absolute;
+  top: 11vh;
+  left: 41vw; 
+  font-size: 3vh;
+}
+.outstanding {
+  position: absolute;
+  top: 11vh;
+  left: 64vw; 
+  font-size: 3vh;
+}
+.countries {
+  position: absolute;
+  top: 11vh;
+  left: 89vw; 
+  font-size: 3vh;
+}
+h1 {
+  margin-bottom: 1vh;
+}
+.sales {
+  position: absolute;
+  left: 20vw;
+  bottom: 29vh;
+  font-weight: bold;
+  font-size: 1em;
+}
+.SalesByParameters {
+  position: absolute;
+  right: 1vw;
+  top: 38vh;
+}
+.salesByCountry {
+  position: absolute;
+  left: 4vw;
+  bottom: 31vh;
+  font-weight: bold;
+  font-size: 1em;
+}
+.SalesLastYear {
+  position: absolute;
+  left: 1vw;
+  top: 77vh; 
+}
+.SalesLastYearText {
+  position: absolute;
+  left: 3vw;
+  bottom: 39vh;
+  font-weight: bold;
+  font-size: 1em;
+}
+.clientAcquisition {
+  position: absolute;
+  right: -1vw;
+  top: 55vh;
+}
+.clientAcquisitionText {
+  position: absolute;
+  right:25vw;
+  bottom: 54vh;
+  font-weight: bold;
+  font-size: 1em;
+}
